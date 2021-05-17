@@ -1,11 +1,55 @@
 [
     {
+        "type": "Group",
+        "name": "src",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "7EwsOY8SWNXPJFp9"
+    },
+    {
+        "type": "File",
+        "name": "c:\\Git\\MinecraftMod\\src\\main\\resources\\mcmod.info",
+        "parent_id": "7EwsOY8SWNXPJFp9",
+        "fsPath": "c:\\Git\\MinecraftMod\\src\\main\\resources\\mcmod.info",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "OI5CX1famP8vVrSW"
+    },
+    {
+        "type": "Group",
+        "name": "build",
+        "parent_id": null,
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "CgRodxe7qmJMFyz8"
+    },
+    {
         "type": "Directory",
         "name": "c:\\Git\\MinecraftMod\\build\\libs",
-        "parent_id": null,
+        "parent_id": "CgRodxe7qmJMFyz8",
         "fsPath": "c:\\Git\\MinecraftMod\\build\\libs",
         "workspaceRoot": null,
         "workspacePath": null,
-        "id": "1GH6UFfJqIAVEBWh"
+        "id": "SOWvwitlerdDKUzM"
+    },
+    {
+        "type": "Directory",
+        "name": "c:\\Git\\MinecraftMod\\src\\main\\resources\\assets\\resources\\textures",
+        "parent_id": "7EwsOY8SWNXPJFp9",
+        "fsPath": "c:\\Git\\MinecraftMod\\src\\main\\resources\\assets\\resources\\textures",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "gRbvrcmPf1nDl4G0"
+    },
+    {
+        "type": "Directory",
+        "name": "c:\\Git\\MinecraftMod\\src\\main\\java\\com\\aegide\\aegidemoddemo",
+        "parent_id": "7EwsOY8SWNXPJFp9",
+        "fsPath": "c:\\Git\\MinecraftMod\\src\\main\\java\\com\\aegide\\aegidemoddemo",
+        "workspaceRoot": null,
+        "workspacePath": null,
+        "id": "KIkd1lQsHWy5OrXT",
+        "label": "code"
     }
 ]
