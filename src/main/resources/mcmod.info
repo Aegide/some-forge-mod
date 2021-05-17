@@ -5,12 +5,6 @@
   "description": "Aegide's Minecraft mod demo.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["Aegide"],
-  "credits": "The Forge and FML guys.",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+  "authorList": ["Aegide"]
 }
 ]

@@ -1,2 +1,5 @@
-tile.amethystOre.name=Amethyst Ore
 item.amethyst.name=Amethyst
+tile.amethystOre.name=Amethyst Ore
+tile.amethystBlock.name=Block of Amethyst
+
+entity.ItemFrame.name=Item Frame
