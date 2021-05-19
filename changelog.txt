@@ -1,4 +1,5 @@
-1.0.5
+1.0.6
+Reworked code
 Added basic recipes
 Added Amethyst, Amethyst Ore and Block of Amethyst
 Added ore generation for Amethyst Ore

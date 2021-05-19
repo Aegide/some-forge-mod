@@ -1,4 +1,4 @@
-package com.aegide.aegidemoddemo;
+package com.aegide.aegidemoddemo.block;
 
 import java.util.Random;
 
@@ -14,7 +14,7 @@ public class ModWorldGenerator implements IWorldGenerator
     private Block block;
     private int veinSize;
 
-    ModWorldGenerator(Block block, int veinSize)
+    public ModWorldGenerator(Block block, int veinSize)
     {
         this.block = block;
         this.veinSize = veinSize;
@@ -43,6 +43,5 @@ public class ModWorldGenerator implements IWorldGenerator
         if (world.provider.dimensionId == 0) {
             this.runGenerator(new WorldGenMinable(block, veinSize), world, random, chunkX, chunkZ, 20, 0, 64);
         }
-        
     }
 }

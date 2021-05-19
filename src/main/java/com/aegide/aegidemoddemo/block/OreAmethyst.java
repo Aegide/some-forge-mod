@@ -1,25 +1,32 @@
-package com.aegide.aegidemoddemo;
+package com.aegide.aegidemoddemo.block;
 
 import java.util.Random;
 
+import com.aegide.aegidemoddemo.main.Config;
+import com.aegide.aegidemoddemo.main.Main;
+
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ModOre extends Block
+public class OreAmethyst extends Block
 {
 	private Item toDrop;
 			
-	public ModOre(Material material, String blockName, Item toDrop)
+	public OreAmethyst()
     {
-        super(material);
+		super(Material.rock);
+		String blockName = "amethystOre";
+		
         this.setBlockName(blockName);
         this.setBlockTextureName(Main.MODID + ":" + blockName);
         this.setCreativeTab(CreativeTabs.tabBlock);
         this.setHardness(4.0F);
         this.setHarvestLevel("pickaxe", 1);
-        this.toDrop = toDrop;
+        this.toDrop = Config.amethyst;
+        GameRegistry.registerBlock(this, blockName);
     }
 	
 	@Override
