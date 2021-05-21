@@ -1,5 +1,6 @@
-1.0.6
-Reworked code
+1.0.8
+Added creative inventory tab
 Added basic recipes
-Added Amethyst, Amethyst Ore and Block of Amethyst
 Added ore generation for Amethyst Ore
+Added items : Amethyst and Amethyst Apple
+Added blocks : Amethyst Ore and Block of Amethyst

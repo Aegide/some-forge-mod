@@ -1,5 +1,8 @@
 item.amethyst.name=Amethyst
+item.amethystApple.name=Amethyst Apple
+
 tile.amethystOre.name=Amethyst Ore
 tile.amethystBlock.name=Block of Amethyst
 
+itemGroup.aegidemoddemo=Aegide Mod Demo
 entity.ItemFrame.name=Item Frame

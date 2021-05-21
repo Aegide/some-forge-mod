@@ -1,9 +1,9 @@
 package com.aegide.aegidemoddemo.item;
 
+import com.aegide.aegidemoddemo.main.Config;
 import com.aegide.aegidemoddemo.main.Main;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemAmethyst extends Item
@@ -14,7 +14,7 @@ public class ItemAmethyst extends Item
     	
         this.setUnlocalizedName(itemName);
         this.setTextureName(Main.MODID + ":" + itemName);
-        this.setCreativeTab(CreativeTabs.tabMisc);
+        this.setCreativeTab(Config.tabAmethyst);
         GameRegistry.registerItem(this, itemName);
     }
 }
