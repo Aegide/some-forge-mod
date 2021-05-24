@@ -12,3 +12,5 @@ bin/
 eclipse/
 build/
 gradlew
+gradlew
+changelog.txt
