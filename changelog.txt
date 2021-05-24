@@ -1,4 +1,5 @@
-1.0.8
+1.0.9
+Added entity : Rosie (my cat)
 Added creative inventory tab
 Added basic recipes
 Added ore generation for Amethyst Ore

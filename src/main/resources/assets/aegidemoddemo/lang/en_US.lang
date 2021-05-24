@@ -6,3 +6,5 @@ tile.amethystBlock.name=Block of Amethyst
 
 itemGroup.aegidemoddemo=Aegide Mod Demo
 entity.ItemFrame.name=Item Frame
+entity.Rosie.name=Rosie (shy)
+entity.RosieTamed.name=Rosie
